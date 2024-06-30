@@ -1,9 +1,9 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-    Name = "Tutorial Script Hub",
-    LoadingTitle = "Tutorial Script Hub",
-    LoadingSubtitle = "by Rolo",
+    Name = "Arsenal",
+    LoadingTitle = "Arsenal",
+    LoadingSubtitle = "by Caro",
     ConfigurationSaving = {
        Enabled = true,
        FolderName = nil, -- Create a custom folder for your hub/game
@@ -29,7 +29,7 @@ local Window = Rayfield:CreateWindow({
  local PlayerTab = Window:CreateTab("Player", 4483362458) -- Title, Image
 
  local Slider = PlayerTab:CreateSlider({
-    Name = "WalkSpeed",
+    Name = "Corre rapido",
     Range = {1, 10},
     Increment = 1,
     Suffix = "Speed",
